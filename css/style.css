@@ -51,8 +51,8 @@ h2 {
 
 img {
     margin: .5em 1em;
-    /* Makes the image circular */
-    border-radius: 50%;
+    /* Removed border-radius to keep image square */
+    /* border-radius: 50%; */
     height: 150px;
     max-width: 100%;
     object-fit: cover;
