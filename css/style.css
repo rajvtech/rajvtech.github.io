@@ -23,7 +23,7 @@ body {
     margin: 0;
     min-height: 100%;
     /* Updated background image */
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/your-background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/your-background2.jpg);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
