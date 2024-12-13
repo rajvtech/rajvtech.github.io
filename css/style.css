@@ -82,15 +82,16 @@ img {
     display: inline-block;
     animation: colorChange 4s infinite alternate;
 }
+
 @keyframes colorChange {
     0% {
-        color: red;
+        color: white;
     }
     50% {
         color: gold;
     }
     100% {
-        color: red;
+        color: white;
     }
 }
 
