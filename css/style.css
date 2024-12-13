@@ -79,6 +79,19 @@ img {
 
 .name strong {
     background-color: rgba(0, 0, 0, 0.50);
+    display: inline-block;
+    animation: colorChange 4s infinite alternate;
+}
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    50% {
+        color: gold;
+    }
+    100% {
+        color: red;
+    }
 }
 
 .section-header {
