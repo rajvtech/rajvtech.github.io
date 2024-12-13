@@ -132,6 +132,19 @@ img {
 .intro {
     margin: 0 auto;
 }
+.image-container img {
+    transition: all 0.3s ease-in-out;
+    /* Initial state */
+    filter: brightness(100%);
+    box-shadow: none;
+}
+
+.image-container img:hover {
+    filter: brightness(120%);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
+}
+
 
 .section {
     margin-top: 1em;
